@@ -1,0 +1,384 @@
+* {
+	margin: 0;
+}
+
+html,
+body {
+	height: 100%;
+	background-color: #fff;
+}
+
+@font-face {
+	font-family: 'MuseoSlab500';
+	src: url(Museo_Slab_500.otf);
+}
+
+.header {
+	font-family: Museo™ Sans Std 500, pt_sans_narrow, Verdana, sans-serif;
+}
+
+.topbar-menu {
+	display: block;
+	list-style-type: none;
+	width: device-size;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 13px 0;
+	line-height: 10px;
+	font-size: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #f2f2f2;
+}
+
+.categorie-topbar-menu {
+	display: inline-block;
+	padding: 0 10px;
+	font-size: 10px;
+	border-left: 1px solid #ccc;
+}
+
+header a:link {
+	text-decoration: none;
+}
+
+header a:hover {
+	color: #a89993;
+	transition: color .3s ease;
+}
+
+.categorie-topbar-menu a {
+	color: #0065b3;
+}
+
+.red-topbar {
+	background-color: #81312f;
+	color: #fff;
+	align-items: center;
+	height: 130px;
+	width: 100%;
+}
+
+.red-topbar a {
+	color: white;
+}
+
+.titre-and-categories {
+	display: inline-block;
+	justify-content: center;
+}
+
+.categories {
+	padding: 0;
+	margin: 0;
+}
+
+.categories-list {
+	display: flex;
+	justify-content: space-around;
+	height: 29px;
+	font-size: 0;
+	text-align: center;
+}
+
+.categories li {
+	border-right: 1px solid #875b5a;
+	padding: 0 10px;
+	display: inline-block;
+	min-height: 26px;
+	margin-bottom: 10px;
+	font-size: 20px;
+	line-height: 26px;
+}
+
+
+.test-iphone-x {
+	background-color: #f3e7e2;
+	border-radius: 3px;
+}
+
+a.test-iphone-x-2 {
+	color: #81312f;
+}
+
+.titres {
+	padding: 0;
+	margin: 0;
+	display: grid;
+	justify-content: center;
+	text-align: center;
+	margin-top: 15px;
+	font-family: 'MuseoSlab500';
+
+}
+
+.titres h1 {
+	color: #ccacac;
+	padding: 0;
+	margin: 0;
+	font-size: 1.5rem;
+}
+
+.container-left {
+	display: flex;
+	justify-content: flex-start;
+	padding: 0;
+	margin: 0;
+}
+
+.container-right {
+	display: flex;
+	justify-content: flex-end;
+	padding: 0;
+	margin: 0;
+}
+
+button {
+	display: block;
+	justify-content: flex-end;
+	background-color: #81312f;
+	color: white;
+	height: 130px;
+	width: 90px;
+}
+
+span .fig_right {
+	text-align: center;
+	border-right: 1px solid #ccc;
+	width: 90px;
+}
+
+.pub-container img {
+	height: 30px;
+	background-color: white;
+}
+
+.pub-container {
+	padding: 0;
+	height: 25%;
+	width: 55%;
+	display: block;
+	justify-content: center;
+	background-color: white;
+}
+
+.pub-container img {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.middle-container {
+	padding: 0;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	display: block;
+	justify-content: center;
+	background-color: white;
+	color: black;
+}
+
+.link {
+	display: block;
+	justify-content: center;
+	font-size: 16px;
+	text-align: center;
+}
+
+.link a {
+	color: #407ec9;
+}
+
+.middle-container a:link {
+	text-decoration: none;
+}
+
+.middle-container a:hover {
+	color: #f90;
+	transition: color .3s ease;
+}
+
+.mainname {
+	font-size: 2.5rem;
+	text-align: center;
+	font-family: 'MuseoSlab500';
+}
+
+.pub-container img {
+	height: 30px;
+	background-color: white;
+}
+
+.pub-container {
+	padding: 0;
+	height: 25%;
+	width: 55%;
+	display: block;
+	justify-content: center;
+	background-color: white;
+}
+
+.pub-container img {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.card-body a:link {
+	text-decoration: none;
+	color: #003872;
+	font-size: 18px;
+}
+
+.card-body a:hover {
+	color: #f90;
+	transition: color .3s ease;
+}
+
+.card-img-top {
+	height: 125px;
+}
+
+.card-img-top-head {
+	height: 350px;
+	margin: 0 10px;
+}
+
+.card-title {
+	font-family: 'MuseoSlab500';
+}
+
+.card-text-name {
+	font-family: 'MuseoSlab500';
+}
+
+.Premium {
+	color: #E1A444;
+}
+
+.LeFigaroPremium {
+	width: 100%;
+	text-align: center;
+}
+
+.LeFigaroPremium h1 {
+	font-family: 'MuseoSlab500';
+}
+
+input[type=text] {
+	width: 70%;
+	margin-bottom: 10px;
+	border: 1px solid;
+	border-color: black;
+}
+
+.LeFigaroPremium input[type=submit] {
+	background-color: #E5A645;
+	border: 5px;
+	border-color: #E5A645;
+	color: white;
+	width: 70%;
+}
+
+input[type=submit] {
+	background-color: #E5A645;
+	border: 5px;
+	border-color: #E5A645;
+	color: white;
+	width: 50%;
+
+}
+
+.comment {
+	border: 1px none black;
+	background-color: #E4E4E4;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-right: 15px;
+}
+
+.comment textarea {
+	width: 100%;
+}
+
+.comment h1 {
+	font-family: 'MuseoSlab500';
+}
+
+.card-deck {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+* {
+	margin: 0;
+}
+
+@font-face {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+	font-weight: bold;
+	background-color: #732b2d;
+	text-align: center;
+	width: 100%;
+}
+
+.figh-footer__list {
+	color: white;
+	list-style-type: none;
+	display: inline-flex;
+	margin: auto;
+	padding: 20px;
+	font-size: 18px;
+}
+
+a {
+	color: white;
+}
+
+footer .figh-footer__link:hover {
+	text-decoration: none;
+	color: #965c5c;
+}
+
+.figh-footer__item {
+	padding-right: 5px;
+	padding-left: 5px;
+
+}
+
+@media only screen and (max-width: 1250px) {
+	.col-md-0 {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1020px) {
+	.col-sm-0 {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.col-0 {
+		display: none;
+	}
+
+	.titres h1 {
+		font-size: 2rem;
+	}
+
+	.titres h2 {
+		font-size: 1.7rem;
+	}
+
+	.figh-footer__item {
+		padding-bottom: 5px;
+	}
+}
